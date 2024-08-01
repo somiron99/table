@@ -1,0 +1,23 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poopines";
+  font-size: 1.5vw;
+  padding-top: 2px;
+  position: relative;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.container {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  left: 30%;
+}
